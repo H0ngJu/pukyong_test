@@ -1,0 +1,51 @@
+body{
+    background-color: #263A6F;
+  }
+  .title{
+    font-size: 50px;
+    text-align: center;
+    color : white;
+    margin-top: 120px;
+  }
+  .sub0{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-weight: normal; 
+  }
+  .sub1{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+  }
+  .mainimg{
+    text-align: center;
+    /*width: 60%;*/
+    margin-top: 30px;
+  }
+  .name{
+    text-align: center;
+    margin-top:80px;
+    color: white;
+    font-weight: normal;
+    font-size: smaller;
+  }
+  .startButton{
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 6px;
+    background-color: #A6DFF8;
+    border: none;
+    border-radius: 50px;
+  }
+  .startButton:hover{
+    background-color: #F6ABCC;
+  }
+  .button{
+    margin-top: 60px;
+    text-align: center;
+  }
