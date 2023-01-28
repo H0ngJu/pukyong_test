@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  height: 850px;
+  background-color: #263A6F;
+}
+
+.Title {
+  position: absolute;
+  left: calc(50% - 210px/2);
+  top: calc(40% - 50px/2 - 267px);
+
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.PartImg {
+  position: absolute;
+  width: 273px;
+  height: 256px;
+  top: calc(20%);
+  left: calc(50% - 273px/2);
+}
+
+.PartNum {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  /* text-align: center; */
+  color: #FFFFFF;
+}
+
+.NextBtn {
+  position: absolute;
+  width: 220px;
+  height: 56px;
+  left: calc(50% - 220px/2);
+  top: 680px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 22px;
+  background: #A6DFF8;
+  border-radius: 50px;
+  border: none;
+}
+
