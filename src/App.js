@@ -15,17 +15,6 @@ export default function App() {
   useEffect(() => {
     setScreenSize();
   });
-
-  // return(
-  //   <div className='App'>
-  //     <BrowserView>
-  //     데스크톱브라우저!
-  //     </BrowserView>
-  //     <MobileView>
-  //       모바일브라우저!
-  //     </MobileView>
-  //   </div>
-  // )
     return (
       <div className="Home">
         <BrowserRouter>
