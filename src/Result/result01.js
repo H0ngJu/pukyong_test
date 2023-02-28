@@ -1,4 +1,4 @@
-import "../Result/result.css";
+import "./Result/result.css";
 //import { BrowserView, MobileView } from 'react-device-detect';
 
 function ResultImg(props) {
