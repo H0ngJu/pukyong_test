@@ -18,11 +18,9 @@ export default function Home() {
       <div className="mainimg">
         <img src="main.png" alt="img" className="mainimg"></img>
       </div>
-      <div className="starButton">
-        <button type="button" onClick={() => {}} className="startButton">
-          시작하기
-        </button>
-      </div>
+      <button type="button" onClick={() => {}} className="startButton">
+        시작하기
+      </button>
       <div className="name">made by 컴공 21,</div>
     </div>
   );
