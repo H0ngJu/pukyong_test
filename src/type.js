@@ -1,5 +1,5 @@
 import './style.css';
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 function Title(props) {
     return (
@@ -34,10 +34,10 @@ function NextBtn(props) {
 }
 
 export default function type() {
-    // const navigate = useNavigate();
-    // function nextPage() {
-    //     navigate('/user/home');
-    // }
+    //  const navigate = useNavigate();
+    //  function nextPage() {
+    //      navigate('/user/home');
+    //  }
 
     return (
         <div className="App">
