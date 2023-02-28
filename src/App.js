@@ -1,6 +1,6 @@
 import "./Home.css";
-import "./quiz.css";
-import "./result.css";
+import "./Quiz/quiz.css";
+import "./Result/result.css";
 import React, { useEffect } from "react";
 //import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
