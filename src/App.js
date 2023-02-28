@@ -4,8 +4,8 @@ import "./result.css";
 import React, { useEffect } from "react";
 //import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Quizpage1 from "./quiz01";
-import Resultpage from "./result02";
+import Quizpage1 from "./Quiz/quiz01";
+import Resultpage from "./Result/result02";
 
 import Typepage1 from "./Type/type01";
 import Typepage2 from "./Type/type02";

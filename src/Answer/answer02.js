@@ -38,6 +38,7 @@ export default function answer02() {
             정원이 마감된 경우에도 담당 교수님에게 연락하여 <br/>
             추가 수강신청이 가능합니다! 
             </div>
+            
             <NextBtn />        
         </div>
     )
