@@ -3,76 +3,6 @@
   /*height: calc(var(--vh,1vh)*100);*/
 }
 
-/* .App {
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  height: 100vh;
-  background-color: #263A6F;
-} */
-/* .title{
-    position: relative;
-    left: 50%;
-    top: 10vh;
-
-    font-size: 36px;
-    text-align: center;
-    color : white;
-    margin-top: 120px;
-  }
-
-  .sub0{
-    position: absolute;
-    left: calc(50% - 280px/2);
-    top: calc(40% - 50px/2 - 100px);
-
-    text-align: center;
-    color: white;
-    margin-top: 50px;
-    font-weight: normal; 
-  }
-
-  .sub1{
-    position: relative;
-    left: calc(50% - 280px/2);
-    top: calc(40% - 50px/2 - 60px);
-
-    text-align: center;
-    color: white;
-    font-weight: normal;
-  }
-  .mainimg{
-    text-align: center;
-    width: 60%;
-    margin-top: 30px;
-  }
-  .name{
-    text-align: center;
-    margin-top:80px;
-    color: white;
-    font-weight: normal;
-    font-size: smaller;
-  }
-  .startButton{
-    height: 50px;
-    text-align: center;
-    width: 300px;
-    font-size: 16px;
-    color: white;
-    font-weight: 500;
-    padding: 6px;
-    background-color: #A6DFF8;
-    border: none;
-    border-radius: 50px;
-  }
-  .startButton:hover{
-    background-color: #F6ABCC;
-  }
-  .button{
-    margin-top: 60px;
-    text-align: center;
-  } */
-
 .Home {
   text-align: center;
   background-color: #263A6F;
@@ -121,11 +51,71 @@
   background: #A6DFF8;
   border-radius: 50px;
 }
+.startButton:hover{
+  background: #F6ABCC;
+}
 
 .name {
   position: relative;
   top: 20vh;
 
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+}
+
+/*모바일 css*/
+
+.m_title {
+  position: relative;
+  top: 7vh;
+  text-align: center;
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.m_sub0 {
+  white-space: pre-wrap;
+  position: relative;
+  top: 12vh;
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.m_mainimg {
+  margin: 0 auto;
+  /*margin > 이미지 중앙정렬, text-align하니까 안됨..*/
+  width: 277px;
+  height: 372px;
+  margin-top: 10vh;
+}
+
+.m_startButton {
+  position: relative;
+  margin: 0 auto;
+  top: 15vh;
+  width: 200px;
+  height: 40px;
+  background: #A6DFF8;
+  border-radius: 50px;
+}
+
+.m_name {
+  position: relative;
+  top: 20vh;
   color: white;
   font-family: 'Inter';
   font-style: normal;
