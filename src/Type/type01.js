@@ -22,7 +22,8 @@ export function NextBtn(props) {
         <div>
             <button
                 className="NextBtn"
-                onClick={()=>(navigate('/quiz01'))}>
+                onClick={()=>(navigate('/quiz01'))}
+                style={{top: '80vh'}}>
             다음으로</button>
         </div>
     )
@@ -34,7 +35,7 @@ export default function type01() {
             {/* <PartImg url="https://www.pknu.ac.kr/upload/raonkeditordata/2022/08/18/20220818_102119098_72062.png" /> */}
             <img className="PartImg" src="https://www.pknu.ac.kr/upload/raonkeditordata/2022/08/18/20220818_102119098_72062.png"></img>
             <div className="PartNum">1 / 6</div>
-            <NextBtn />
+            <NextBtn/>
         </div>
     );
 }

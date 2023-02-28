@@ -18,6 +18,7 @@ function NextBtn(props) {
             <button
                 className="NextBtn"
                 // onClick={()=>(navigate('/answer05'))}
+                style={{top: '80vh'}}
             >다음으로</button>
         </div>
     )

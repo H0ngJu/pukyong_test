@@ -15,6 +15,11 @@ import Answerpage2 from "./Answer/answer02";
 import Answerpage3 from "./Answer/answer03";
 import Answerpage4 from "./Answer/answer04";
 import Answerpage5 from "./Answer/answer05";
+import Answerpage6 from "./Answer/answer06";
+import Answerpage7 from "./Answer/answer07";
+import Answerpage8 from "./Answer/answer08";
+import Answerpage9 from "./Answer/answer09";
+import Answerpage10 from "./Answer/answer10";
 
 export default function Result() {
   function setScreenSize() {
@@ -37,6 +42,11 @@ export default function Result() {
           <Route path={"/answer03"} element={<Answerpage3 />}></Route>
           <Route path={"/answer04"} element={<Answerpage4 />}></Route>
           <Route path={"/answer05"} element={<Answerpage5 />}></Route>
+          <Route path={"/answer06"} element={<Answerpage6 />}></Route>
+          <Route path={"/answer07"} element={<Answerpage7 />}></Route>
+          <Route path={"/answer08"} element={<Answerpage8 />}></Route>
+          <Route path={"/answer09"} element={<Answerpage9 />}></Route>
+          <Route path={"/answer10"} element={<Answerpage10 />}></Route>
           <Route path={"/"} element={<Homepage />}></Route>
         </Routes>
       </BrowserRouter>
