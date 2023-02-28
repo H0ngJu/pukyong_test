@@ -1,0 +1,70 @@
+:root {
+  --vh: 100%;
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+  /* width: 365px;
+  height: 760px; */
+  width: 100%;
+  height: 100vh;
+  background-color: #263A6F;
+}
+
+.Title {
+  position: absolute;
+  left: calc(50% - 210px/2);
+  /* top: calc(40% - 50px/2 - 267px); */
+  top: 5vh;
+
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.PartImg {
+  position: absolute;
+  width: 273px;
+  height: 256px;
+  /* top: calc(20%); */
+  left: calc(50% - 273px/2);
+  top: 18vh;
+}
+
+.PartNum {
+  position: absolute;
+  top: 60vh;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  padding-top:30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.NextBtn {
+  position: absolute;
+  width: 220px;
+  height: 56px;
+  left: calc(50% - 220px/2);
+  top: calc(70% - 56px/2);
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 22px;
+  background: #A6DFF8;
+  border-radius: 50px;
+  border: none;
+}
+.NextBtn:hover {
+  background-color: #F6ABCC;
+}
+
+

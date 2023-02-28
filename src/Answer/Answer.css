@@ -1,0 +1,73 @@
+/* .App {
+  width: 390px;
+  height: 1000px;
+} */
+
+.AnsTitle {
+  position: relative;
+  width: 260px;
+  height: 72px;
+  left: calc(50% - 260px/2);
+  top: calc(20% - 72px/2);
+
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  color: #F6ABCC;
+  display: flex;
+}
+
+/* .titleImg {
+  position: absolute;
+  width: 72px;
+  height: 65px;
+  top: calc(20%);
+  left: 60vw;
+} */
+
+.Ans {
+  /* position: absolute; */
+  font-family: 'Inter';
+  font-style: normal;
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  width: 253px;
+  height: 30px;
+  left: calc(50% - 253px/2);
+}
+
+.normal {
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 28px;
+  width: 310px;
+  left: calc(50% - 310px/2);
+}
+
+.txt1 {
+  /* top: 200px; */
+  top: 20vh;
+}
+
+.txt2 {
+  /* top: 250px; */
+  top: 25vh;
+}
+
+.txt3 {
+  /* top: 350px; */
+  top: 30vh;
+}
+
+.NextBtn {
+  /* top : 700px; */
+  top: 90vh;
+}
