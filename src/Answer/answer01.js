@@ -6,7 +6,7 @@ export function ProgressBar(props) {
 
 }
 
-function NextBtn(props) {
+function NextBtn() {
     const navigate = useNavigate();
     return (
         <div>

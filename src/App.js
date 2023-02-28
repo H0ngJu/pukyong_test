@@ -4,9 +4,8 @@ import "./result.css";
 import React, { useEffect } from "react";
 //import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Quizpage from "./quiz";
-import Resultpage from "./result_2";
-//import Homepage from './Home';
+import Quizpage1 from "./quiz01";
+import Resultpage from "./result02";
 
 import Typepage1 from "./Type/type01";
 import Typepage2 from "./Type/type02";
@@ -29,7 +28,7 @@ export default function Result() {
     <div className="Result">
       <BrowserRouter>
         <Routes>
-          <Route path={"/quiz"} element={<Quizpage />}></Route>
+          <Route path={"/quiz01"} element={<Quizpage1 />}></Route>
           <Route path={"/result"} element={<Resultpage />}></Route>
           <Route path={"/type01"} element={<Typepage1 />}></Route>
           <Route path={"/type02"} element={<Typepage2 />}></Route>

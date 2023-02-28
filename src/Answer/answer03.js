@@ -1,7 +1,7 @@
 import './Answer.css';
 import { useNavigate } from "react-router-dom";
 
-function NextBtn(props) {
+function NextBtn() {
     const navigate = useNavigate();
     return (
         <div>

@@ -22,7 +22,7 @@ export function NextBtn(props) {
         <div>
             <button
                 className="NextBtn"
-                onClick={()=>(navigate('/answer01'))}>
+                onClick={()=>(navigate('/quiz01'))}>
             다음으로</button>
         </div>
     )

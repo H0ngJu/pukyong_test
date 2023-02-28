@@ -1,8 +1,8 @@
 import "./Home.css";
-//import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
-  //  const movePage = useNavigate;
+  const navigate = useNavigate();
   //  function gotype(){
   //    movePage('/type');
   //  }
@@ -18,7 +18,7 @@ export default function Home() {
       <div className="mainimg">
         <img src="main.png" alt="img" className="mainimg"></img>
       </div>
-      <button type="button" onClick={() => {}} className="startButton">
+      <button type="button" onClick={()=>(navigate('/type01'))} className="startButton">
         시작하기
       </button>
       <div className="name">made by 컴공 21,</div>
