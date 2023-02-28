@@ -36,9 +36,9 @@ function SubResultTitle(props) {
 function Discription(props) {
   return (
     <div>
-      <div className="discription">{props.content_1}</div>
-      <div className="discription">{props.content_2}</div>
-      <div className="discription">{props.content_3}</div>
+      <div className="r_discription">{props.content_1}</div>
+      <div className="r_discription">{props.content_2}</div>
+      <div className="r_discription">{props.content_3}</div>
     </div>
   );
 }
