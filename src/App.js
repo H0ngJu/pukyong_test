@@ -4,18 +4,18 @@ import "./result.css";
 import React, { useEffect } from "react";
 //import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-//import Quizpage from './quiz';
+import Quizpage from "./quiz";
 import Resultpage from "./result_2";
 //import Homepage from './Home';
 
-import Typepage1 from './Type/type01';
-import Typepage2 from './Type/type02';
-import Homepage from './Home';
-import Answerpage1 from './Answer/answer01';
-import Answerpage2 from './Answer/answer02';
-import Answerpage3 from './Answer/answer03';
-import Answerpage4 from './Answer/answer04';
-import Answerpage5 from './Answer/answer05';
+import Typepage1 from "./Type/type01";
+import Typepage2 from "./Type/type02";
+import Homepage from "./Home";
+import Answerpage1 from "./Answer/answer01";
+import Answerpage2 from "./Answer/answer02";
+import Answerpage3 from "./Answer/answer03";
+import Answerpage4 from "./Answer/answer04";
+import Answerpage5 from "./Answer/answer05";
 
 export default function Result() {
   function setScreenSize() {
@@ -29,6 +29,7 @@ export default function Result() {
     <div className="Result">
       <BrowserRouter>
         <Routes>
+          <Route path={"/quiz"} element={<Quizpage />}></Route>
           <Route path={"/result"} element={<Resultpage />}></Route>
           <Route path={"/type01"} element={<Typepage1 />}></Route>
           <Route path={"/type02"} element={<Typepage2 />}></Route>
