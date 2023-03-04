@@ -14,7 +14,8 @@
 
 .Title {
   position: absolute;
-  left: calc(50% - 210px/2);
+  left: calc(50%);
+  transform: translate(-50%, 0%);
   /* top: calc(40% - 50px/2 - 267px); */
   top: 5vh;
 
@@ -31,12 +32,12 @@
   height: 256px;
   /* top: calc(20%); */
   left: calc(50% - 273px/2);
-  top: 18vh;
+  top: 22vh;
 }
 
 .PartNum {
   position: absolute;
-  top: 55vh;
+  top: 60vh;
   left: 50%;
   transform: translate(-55%, -50%);
   padding-top:30px;
