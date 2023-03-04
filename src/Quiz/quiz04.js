@@ -76,7 +76,7 @@ export default function Quiz01() {
       <ProgressBar />
       <div className="row">
         <QuizImg url="https://www.pknu.ac.kr/upload/raonkeditordata/2022/08/18/20220818_102117661_33062.png" />
-        <QuizHead content="강의 계획서에 있는 책을 OT날에 준비해가지 않으면 불이익을 받는다" />
+        <QuizHead content="강의 계획서에 있는 책을 OT에 준비해가지 않으면 불이익을 받는다." />
       </div>
       <Option option="O" />
       <Option option="X" />

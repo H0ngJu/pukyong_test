@@ -52,7 +52,7 @@ function Option(props) {
   const navigate = useNavigate();
   return (
     <div>
-      <button className="Option" onClick={() => navigate("/answer01")}>
+      <button className="Option" onClick={() => navigate("/result01")}>
         {props.option}
       </button>
     </div>
@@ -76,11 +76,10 @@ export default function Quiz01() {
       {/* <ProgressBar content="1" /> */}
       <div className="row">
         <QuizImg url="https://www.pknu.ac.kr/upload/raonkeditordata/2022/08/18/20220818_102117661_33062.png" />
-        <QuizHead content="다음 중 수강신청이 가장 빠른 방식은?" />
+        <QuizHead content="LMS 온라인 수업 50분을 4시간 동안 들으면 부정출결로 인정된다." />
       </div>
-      <Option option="예비수강 창에서 신청" />
-      <Option option="학수번호 입력 후 신청" />
-      <Option option="컴퓨터 접속해서 신청" />
+      <Option option="O" />
+      <Option option="X" />
     </div>
   );
 }

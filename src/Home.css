@@ -39,13 +39,13 @@
   /*margin > 이미지 중앙정렬, text-align하니까 안됨..*/
   width: 277px;
   height: 372px;
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
 
 .startButton {
   position: relative;
   margin: 0 auto;
-  top: 15vh;
+  top: 12vh;
   width: 200px;
   height: 40px;
   background: #a6dff8;
@@ -57,7 +57,7 @@
 
 .name {
   position: relative;
-  top: 20vh;
+  top: 17vh;
 
   color: white;
   font-family: "Inter";

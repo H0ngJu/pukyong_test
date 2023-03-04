@@ -18,10 +18,14 @@ export default function Home() {
       <div className="mainimg">
         <img src="main.png" alt="img" className="mainimg"></img>
       </div>
-      <button type="button" onClick={()=>(navigate('/type01'))} className="startButton">
+      <button
+        type="button"
+        onClick={() => navigate("/type01")}
+        className="startButton"
+      >
         시작하기
       </button>
-      <div className="name">made by 컴공 21,</div>
+      <div className="name">made by 컴공 21, 22</div>
     </div>
   );
 }
