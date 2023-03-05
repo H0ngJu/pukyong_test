@@ -1,4 +1,5 @@
 import "./result.css";
+import React from "react";
 //import { BrowserView, MobileView } from 'react-device-detect';
 
 function ResultImg(props) {
@@ -73,19 +74,25 @@ function TipContainer(props) {
     </div>
   );
 }
-const copyLinkBtn = document.querySelector("#copy-link-btn");
-copyLinkBtn.addEventListener("click", copyLink);
 
-function copyLink() {
-  const link = window.location.href;
-  navigator.clipboard
-    .writeText(link)
-    .then(() => {
-      alert("Link copied to clipboard!");
-    })
-    .catch((error) => {
-      console.error("Failed to copy link: ", error);
-    });
+function CopyButton() {
+  const copyToClipboard = () => {
+    const url = "https://pukyong-test.vercel.app";
+    navigator.clipboard
+      .writeText(url)
+      .then(() => {
+        alert(`${url} 링크를 복사하였습니다!`);
+      })
+      .catch((error) => {
+        console.error(`Error copying ${url} to clipboard:`, error);
+      });
+  };
+
+  return (
+    <button className="copy" onClick={copyToClipboard}>
+      친구에게 테스트 공유하기
+    </button>
+  );
 }
 
 export default function Result() {
@@ -161,7 +168,7 @@ export default function Result() {
       <TipContainer content="교내 wifi 연결하는 법" />
       <TipContainer content="맛집 list" />
       <TipContainer content="과사 전화번호와 위치" />
-      <button className="copy">친구에게 테스트 공유하기</button>
+      <CopyButton />
     </div>
   );
 }

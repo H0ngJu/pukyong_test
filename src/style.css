@@ -1,8 +1,12 @@
+:root {
+  --vh: 100%;
+}
+
 .App {
   text-align: center;
   margin: auto;
-  width: 400px;
-  height: 850px;
+  width: 100%;
+  height: 100vh;
   background-color: #263A6F;
 }
 

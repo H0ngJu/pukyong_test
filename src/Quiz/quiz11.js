@@ -53,7 +53,7 @@ function Option(props) {
   const navigate = useNavigate();
   return (
     <div>
-      <button className="Option" onClick={() => navigate("/quiz12")}>
+      <button className="Option" onClick={() => navigate("/answer11")}>
         {props.option}
       </button>
     </div>

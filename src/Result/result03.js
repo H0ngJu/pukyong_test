@@ -73,6 +73,25 @@ function TipContainer(props) {
     </div>
   );
 }
+function CopyButton() {
+  const copyToClipboard = () => {
+    const url = "https://pukyong-test.vercel.app";
+    navigator.clipboard
+      .writeText(url)
+      .then(() => {
+        alert(`${url} 링크를 복사하였습니다!`);
+      })
+      .catch((error) => {
+        console.error(`Error copying ${url} to clipboard:`, error);
+      });
+  };
+
+  return (
+    <button className="copy" onClick={copyToClipboard}>
+      친구에게 테스트 공유하기
+    </button>
+  );
+}
 export default function Result() {
   // const movePage = useNavigate;
 
@@ -146,7 +165,7 @@ export default function Result() {
       <TipContainer content="교내 wifi 연결하는 법" />
       <TipContainer content="맛집 list" />
       <TipContainer content="과사 전화번호와 위치" />
-      <div className="shareLink">친구에게 테스트 공유하기</div>
+      <CopyButton />
     </div>
   );
 }
