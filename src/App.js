@@ -21,8 +21,14 @@ import Quizpage14 from "./Quiz/quiz14";
 import Quizpage15 from "./Quiz/quiz15";
 import Quizpage16 from "./Quiz/quiz16";
 import Quizpage17 from "./Quiz/quiz17";
+import Quizpage18 from "./Quiz/quiz18";
+import Quizpage19 from "./Quiz/quiz19";
+import Quizpage20 from "./Quiz/quiz20";
 
 import Resultpage1 from "./Result/result01";
+import Resultpage2 from "./Result/result02";
+import Resultpage3 from "./Result/result03";
+import Resultpage4 from "./Result/result04";
 
 import Typepage1 from "./Type/type01";
 import Typepage2 from "./Type/type02";
@@ -82,8 +88,14 @@ export default function Result() {
           <Route path={"/quiz15"} element={<Quizpage15 />}></Route>
           <Route path={"/quiz16"} element={<Quizpage16 />}></Route>
           <Route path={"/quiz17"} element={<Quizpage17 />}></Route>
+          <Route path={"/quiz18"} element={<Quizpage18 />}></Route>
+          <Route path={"/quiz19"} element={<Quizpage19 />}></Route>
+          <Route path={"/quiz20"} element={<Quizpage20 />}></Route>
 
           <Route path={"/result01"} element={<Resultpage1 />}></Route>
+          <Route path={"/result02"} element={<Resultpage2 />}></Route>
+          <Route path={"/result03"} element={<Resultpage3 />}></Route>
+          <Route path={"/result04"} element={<Resultpage4 />}></Route>
 
           <Route path={"/type01"} element={<Typepage1 />}></Route>
           <Route path={"/type02"} element={<Typepage2 />}></Route>

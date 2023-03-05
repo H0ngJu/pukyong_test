@@ -61,7 +61,7 @@ function QuestionTitle(props) {
 
 function TipContainer(props) {
   return (
-    <div>
+    <div className="tipContainer">
       <img
         className="tipImg"
         alt=""
@@ -69,8 +69,27 @@ function TipContainer(props) {
           "https://www.pknu.ac.kr/upload/raonkeditordata/2022/01/25/20220125_092352379_38272.png"
         }
       />
-      <div className="tipContainer">{props.content}</div>
+      <div className="tipTitle">{props.content}</div>
     </div>
+  );
+}
+function CopyButton() {
+  const copyToClipboard = () => {
+    const url = "https://pukyong-test.vercel.app";
+    navigator.clipboard
+      .writeText(url)
+      .then(() => {
+        alert(`${url} 링크를 복사하였습니다!`);
+      })
+      .catch((error) => {
+        console.error(`Error copying ${url} to clipboard:`, error);
+      });
+  };
+
+  return (
+    <button className="copy" onClick={copyToClipboard}>
+      친구에게 테스트 공유하기
+    </button>
   );
 }
 export default function Result() {
@@ -83,7 +102,7 @@ export default function Result() {
   return (
     <div className="result">
       <ResultImg url="https://www.pknu.ac.kr/upload/raonkeditordata/2022/08/18/20220818_102118432_57932.png" />
-      <Count content="20" />
+      <Count content="19" />
       <SubResultTitle content="모르는 것이 없는" />
       <ResultTitle content="부경대 고인물" />
       <Discription
@@ -111,33 +130,42 @@ export default function Result() {
           해요!
         </div>
       </div>
-      <Subscribe content="Q1. 노트북 vs 태블릿" />
+      <Subscribe content="Q2. PBL? TBL? BL?" />
       <div className="container">
         <p>
-          <p className="content">대학생에게 노트북은 필수! </p>
+          <div className="content">FL</div>
           <div className="content">
-            한글, ppt 등 다양한 문서작업, 팀플을 하기 위해서는 노트북 또는
-            데스크탑이 필요합니다. 태블릿은 부가적인 요소인 것 같아요.
+            Flipped Learning. 교수자가 제시한 자료를 학습자가 미리 개별 학습 후
+            수업시간에 이에 대한 토론활동을 하는 것
           </div>
+          <div className="content">PBL</div>
           <div className="content">
-            집에 데스크탑이 있어도 밖에서 노트북이 필요한 상황이 종종 있어요.
-            각자 상황에 맞는 선택 하시길~ :)
+            Problem Based Learning. 실제적인 문제를 중심으로 수업상황을
+            구조화하는 학습법
+          </div>
+          <div className="content">BL</div>
+          <div className="content">
+            Blended Learning. 대면과 비대면을 섞어서 하는 수업 방식
+          </div>
+          <div className="content">TBL : Team Based Learning. 팀 기반 학습</div>
+          <div className="content">ML</div>
+          <div className="content">
+            Machine Learning. 4차산업혁명내 인공지능 분야에서 사용하는 데이터
+            기반 학습
+          </div>
+          <div className="content">AL</div>
+          <div className="content">
+            Action Learning. 학습자들이 팀을 구성, 각자 자신의 과제, 팀 전체의
+            과제를 Learning Coach와 함께 해결해나가는 것
           </div>
         </p>
-        <div className="content">
-          노트북으로도 강의 타이핑을 하기도 하고, 태블릿으로 손필기를 하기도
-          해요!
-        </div>
       </div>
       <hr className="divider" />
       <TipContainer content="유용한 부경 전용 어플" />
-      <TipContainer content="이것이 꿀교다!" />
-      <TipContainer content="학식추천 list" />
       <TipContainer content="교내 wifi 연결하는 법" />
-      <TipContainer content="학교 건물 문 위치" />
       <TipContainer content="맛집 list" />
       <TipContainer content="과사 전화번호와 위치" />
-      <div className="shareLink">친구에게 테스트 공유하기</div>
+      <CopyButton />
     </div>
   );
 }

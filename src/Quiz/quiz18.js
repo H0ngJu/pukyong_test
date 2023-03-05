@@ -52,7 +52,7 @@ function Option(props) {
   const navigate = useNavigate();
   return (
     <div>
-      <button className="Option" onClick={() => navigate("/answer01")}>
+      <button className="Option" onClick={() => navigate("/answer18")}>
         {props.option}
       </button>
     </div>
@@ -76,12 +76,12 @@ export default function Quiz01() {
       {/* <ProgressBar content="1" /> */}
       <div className="row">
         <QuizImg url="https://www.pknu.ac.kr/upload/raonkeditordata/2022/08/18/20220818_102117661_33062.png" />
-        <QuizHead content="다음 중 도서관 자리를 예약할 수 있는 어플은?" />
+        <QuizHead content="재학생이 도서관에서 빌릴 수 있는 최대 권수와 기간은?" />
       </div>
-      <Option option="부경대학교" />
-      <Option option="수강신청" />
-      <Option option="부경대학교모바일도서관" />
-      <Option option="부경대 도서관" />
+      <Option option="3권 10일" />
+      <Option option="3권 14일" />
+      <Option option="5권 10일" />
+      <Option option="5권 14일" />
     </div>
   );
 }
