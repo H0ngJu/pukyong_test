@@ -1,11 +1,11 @@
-/* .App {
-  width: 390px;
-  height: 1000px;
-} */
+:root {
+  --vh: 100%;
+}
 
 .AnsTitle {
-  position: relative;
-  width: 260px;
+  /* position: relative; */
+  /* width: 260px; */
+  width: 100%;
   height: 72px;
   left: calc(50% - 260px/2);
   top: 5vh;
@@ -14,16 +14,34 @@
   line-height: 30px;
   text-align: left;
   color: #F6ABCC;
-  display: flex;
+  display: grid;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto;
+  margin: auto;
+  place-items: center;
+  justify-content: center;
 }
 
-/* .titleImg {
-  position: absolute;
+.titleImg {
   width: 72px;
   height: 65px;
-  top: calc(20%);
-  left: 60vw;
-} */
+  /* top: calc(20%);
+  left: 60vw; */
+  margin: auto;
+  padding-left: 10px;
+}
+
+.app1 {
+  display: grid;
+  margin: auto;
+  grid-template-columns: 70px auto;
+}
+
+.appImg {
+  width: 70px;
+  margin: auto;
+  place-items: center auto;
+}
 
 .Ans {
   /* position: absolute; */
@@ -31,28 +49,32 @@
   font-style: normal;
   color: #FFFFFF;
   position: relative;
-  text-align: center;
+  text-align: left;
+  width: 300px;
+  line-height: 30px;
 }
 
 .bold {
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
-  width: 253px;
+  /* width: 253px; */
   height: 30px;
-  left: calc(50% - 253px/2);
+  left: calc(50%);
+  transform: translate(-50%, 0%);
 }
 
 .normal {
   font-weight: 200;
   font-size: 16px;
   line-height: 28px;
-  width: 310px;
-  left: calc(50% - 310px/2);
+  /* width: 310px; */
+  left: calc(50%);
+  transform: translate(-50%, 0%);
+
 }
 
 .NextBtn {
-  /* top : 700px; */
   top: 90vh;
 }
 
@@ -76,4 +98,11 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {
   background-color: #007aff;
   border-radius: 20px;
+}
+
+.link {
+  font-family: 'Inter';
+  font-style: normal;
+  color: #F6ABCC;
+  text-decoration: none;
 }
