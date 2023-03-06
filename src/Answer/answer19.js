@@ -32,7 +32,7 @@ export default function answer19() {
       </div>
 
       <div className="Ans normal" style={{top: "7vh", fontSize: "18px", lineHeight: "31px"}}>
-        참고로 호연관은 6호관, 나래관은 , 충무관은 4호관이었습니다! <br/>
+        참고로 호연관은 6호관, 나래관은 인문사회관, 충무관은 4호관이었습니다! <br/>
         이것까지 맞추셨다면... 정말 부경대에 진심이시군요...
       </div>
       <NextBtn />

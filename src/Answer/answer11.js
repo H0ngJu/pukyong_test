@@ -35,7 +35,7 @@ export default function answer11() {
       <div className="Ans bold" style={{top: "9vh"}}>
         동아리 소개 한마당 (3월 14일)
       </div>
-      <div className="Ans normal" style={{top: "10vh", fontSize: "18px", lineHeight: "30px"}}>
+      <div className="Ans normal" style={{top: "11vh", fontSize: "18px", lineHeight: "30px"}}>
         잔디광장에서 중앙동아리들이 안내 부스를 운영하며
         동아리를 설명하고 안내해주는 행사입니다. <br />
         들어가고 싶은 동아리가 있다면 미리 신청하는 게 가장 좋겠지만,
