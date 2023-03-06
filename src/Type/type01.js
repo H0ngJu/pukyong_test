@@ -9,13 +9,7 @@ function Title(props) {
         </div>
     )
 }
-// function PartImg(props) {
-//     return (
-//         <div>
-//             <img src={props.url} className="PartImg"></img>
-//         </div>
-//     )
-// }
+
 export function NextBtn(props) {
     const navigate = useNavigate();
     return (

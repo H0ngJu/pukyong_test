@@ -27,7 +27,7 @@ export default function answer15() {
 
       <div className="Ans normal" style={{fontSize: "18px", top: "3vh"}}>
         장보고관 앞의 연못에 원래는 철갑상어가 있었고 지금은 거북이가
-        살고있습니다! 그리고 공사 전 옛날 청운관에는 부경사우르스라는
+        살고있습니다! 그리고 공사 전 옛날 청운관에는 부경고사우르스라는
         공룡 화석이 있었답니다 ㅋ.ㅋ <br/><br/>
         혹시 백경이를 떠오르셨다면... 저런...! 🤣
       </div>

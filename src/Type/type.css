@@ -14,13 +14,14 @@
 
 .Title {
   position: absolute;
+  width: 90%;
   left: calc(50%);
   transform: translate(-50%, 0%);
   /* top: calc(40% - 50px/2 - 267px); */
   top: 5vh;
 
   font-weight: 400;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 44px;
   text-align: center;
   color: #FFFFFF;
